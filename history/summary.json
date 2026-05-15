@@ -1,0 +1,240 @@
+[
+  {
+    "name": "Figueredo Med (Web)",
+    "url": "https://figueredomed.com",
+    "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
+    "slug": "figueredo-med-web",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 55,
+    "timeDay": 55,
+    "timeWeek": 55,
+    "timeMonth": 55,
+    "timeYear": 55,
+    "dailyMinutesDown": {
+      "2026-05-15": 24
+    }
+  },
+  {
+    "name": "Figueredo Med (www)",
+    "url": "https://www.figueredomed.com",
+    "icon": "https://icons.duckduckgo.com/ip3/www.figueredomed.com.ico",
+    "slug": "figueredo-med-www",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 36,
+    "timeDay": 36,
+    "timeWeek": 36,
+    "timeMonth": 36,
+    "timeYear": 36,
+    "dailyMinutesDown": {
+      "2026-05-15": 22
+    }
+  },
+  {
+    "name": "Patologías API",
+    "url": "https://figueredomed.com/api/v1/patologias/coronavirus",
+    "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
+    "slug": "patologias-api",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 56,
+    "timeDay": 56,
+    "timeWeek": 56,
+    "timeMonth": 56,
+    "timeYear": 56,
+    "dailyMinutesDown": {
+      "2026-05-15": 22
+    }
+  },
+  {
+    "name": "Stripe Checkout endpoint",
+    "url": "https://figueredomed.com/api/checkout/pro",
+    "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
+    "slug": "stripe-checkout-endpoint",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 120,
+    "timeDay": 120,
+    "timeWeek": 120,
+    "timeMonth": 120,
+    "timeYear": 120,
+    "dailyMinutesDown": {
+      "2026-05-15": 22
+    }
+  },
+  {
+    "name": "IA Pregúntale Dr.",
+    "url": "https://figueredomed.com/api/ia/preguntale-dr",
+    "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
+    "slug": "ia-preguntale-dr",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 37,
+    "timeDay": 37,
+    "timeWeek": 37,
+    "timeMonth": 37,
+    "timeYear": 37,
+    "dailyMinutesDown": {
+      "2026-05-15": 22
+    }
+  },
+  {
+    "name": "Supabase REST API",
+    "url": "https://xrilfjsamjnyhlvsiiyh.supabase.co/rest/v1/",
+    "icon": "https://icons.duckduckgo.com/ip3/xrilfjsamjnyhlvsiiyh.supabase.co.ico",
+    "slug": "supabase-rest-api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 43,
+    "timeDay": 43,
+    "timeWeek": 43,
+    "timeMonth": 43,
+    "timeYear": 43,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Supabase Auth",
+    "url": "https://xrilfjsamjnyhlvsiiyh.supabase.co/auth/v1/health",
+    "icon": "https://icons.duckduckgo.com/ip3/xrilfjsamjnyhlvsiiyh.supabase.co.ico",
+    "slug": "supabase-auth",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 38,
+    "timeDay": 38,
+    "timeWeek": 38,
+    "timeMonth": 38,
+    "timeYear": 38,
+    "dailyMinutesDown": {
+      "2026-05-15": 20
+    }
+  },
+  {
+    "name": "Cloudflare R2 GLB CDN",
+    "url": "https://pub-34b9e7ef2c1d414ba6501db107fb6ba5.r2.dev/organs/corazon_humano.glb",
+    "icon": "https://icons.duckduckgo.com/ip3/pub-34b9e7ef2c1d414ba6501db107fb6ba5.r2.dev.ico",
+    "slug": "cloudflare-r2-glb-cdn",
+    "status": "down",
+    "uptime": "80.38%",
+    "uptimeDay": "80.38%",
+    "uptimeWeek": "80.38%",
+    "uptimeMonth": "80.38%",
+    "uptimeYear": "80.38%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-05-15": 2
+    }
+  },
+  {
+    "name": "Aetheris Med (B2B)",
+    "url": "https://figueredomed.com/aetheris-med",
+    "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
+    "slug": "aetheris-med-b2-b",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 141,
+    "timeDay": 141,
+    "timeWeek": 141,
+    "timeMonth": 141,
+    "timeYear": 141,
+    "dailyMinutesDown": {
+      "2026-05-15": 2
+    }
+  },
+  {
+    "name": "Tienda",
+    "url": "https://figueredomed.com/tienda",
+    "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
+    "slug": "tienda",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 42,
+    "timeDay": 42,
+    "timeWeek": 42,
+    "timeMonth": 42,
+    "timeYear": 42,
+    "dailyMinutesDown": {
+      "2026-05-15": 2
+    }
+  },
+  {
+    "name": "Biblioteca",
+    "url": "https://figueredomed.com/biblioteca",
+    "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
+    "slug": "biblioteca",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 48,
+    "timeDay": 48,
+    "timeWeek": 48,
+    "timeMonth": 48,
+    "timeYear": 48,
+    "dailyMinutesDown": {
+      "2026-05-15": 0
+    }
+  },
+  {
+    "name": "Calculadoras médicas",
+    "url": "https://figueredomed.com/calculadoras",
+    "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
+    "slug": "calculadoras-medicas",
+    "status": "down",
+    "uptime": "26.70%",
+    "uptimeDay": "26.70%",
+    "uptimeWeek": "26.70%",
+    "uptimeMonth": "26.70%",
+    "uptimeYear": "26.70%",
+    "time": 33,
+    "timeDay": 33,
+    "timeWeek": 33,
+    "timeMonth": 33,
+    "timeYear": 33,
+    "dailyMinutesDown": {
+      "2026-05-15": 0
+    }
+  }
+]
