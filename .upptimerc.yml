@@ -75,6 +75,9 @@ sites:
       - 200
       - 301
       - 302
+      - 401
+      - 402
+      - 403
 
   - name: Tienda
     url: https://figueredomed.com/tienda
@@ -85,11 +88,16 @@ sites:
     url: https://figueredomed.com/biblioteca
     expectedStatusCodes:
       - 200
+      - 401
+      - 402
 
   - name: Calculadoras médicas
     url: https://figueredomed.com/calculadoras
     expectedStatusCodes:
       - 200
+      - 402   # paywall activo (Pro/Founder Lifetime)
+      - 401
+      - 403
 
 # ────────────────────────────────────────────────────────────────────
 # Configuración de la status page pública
