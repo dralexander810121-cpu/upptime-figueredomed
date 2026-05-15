@@ -1,0 +1,25 @@
+{
+  "name": "upptime-figueredomed",
+  "version": "1.0.0",
+  "description": "Status page oficial de Figueredo Med + Aetheris Med (status.figueredomed.com). Monitoreo automatizado vía GitHub Actions.",
+  "homepage": "https://upptime.js.org",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dralexander810121-cpu/upptime-figueredomed.git"
+  },
+  "author": {
+    "name": "Dr. Alexander Jesús Figueredo Izaguirre",
+    "email": "dralexander810121@gmail.com",
+    "url": "https://figueredomed.com"
+  },
+  "keywords": [
+    "upptime",
+    "figueredomed",
+    "aetheris-med",
+    "uptime-monitor",
+    "status-page"
+  ],
+  "funding": "https://github.com/upptime/upptime?sponsor=1"
+}

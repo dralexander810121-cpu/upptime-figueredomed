@@ -1,0 +1,18 @@
+name: Uptime CI
+on:
+  repository_dispatch:
+    types: [uptime]
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+jobs:
+  release:
+    name: Check status
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check status
+        uses: upptime/uptime-monitor@v1
+        with:
+          command: "update"
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}

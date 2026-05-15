@@ -1,0 +1,199 @@
+# Upptime config — status.figueredomed.com
+# Documentación: https://upptime.js.org/docs/configuration
+
+owner: dralexander810121-cpu
+repo: upptime-figueredomed
+
+sites:
+  - name: Figueredo Med (Web)
+    url: https://figueredomed.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 308
+
+  - name: Figueredo Med (www)
+    url: https://www.figueredomed.com
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 308
+
+  - name: Patologías API
+    url: https://figueredomed.com/api/v1/patologias/coronavirus
+    expectedStatusCodes:
+      - 200
+      - 404
+
+  - name: Stripe Checkout endpoint
+    url: https://figueredomed.com/api/checkout/pro
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"interval":"month"}'
+    expectedStatusCodes:
+      - 200
+      - 400
+      - 401
+      - 405
+
+  - name: IA Pregúntale Dr.
+    url: https://figueredomed.com/api/ia/preguntale-dr
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"query":"healthcheck"}'
+    expectedStatusCodes:
+      - 200
+      - 400
+      - 401
+      - 405
+
+  - name: Supabase REST API
+    url: https://xrilfjsamjnyhlvsiiyh.supabase.co/rest/v1/
+    expectedStatusCodes:
+      - 200
+      - 401
+      - 404
+
+  - name: Supabase Auth
+    url: https://xrilfjsamjnyhlvsiiyh.supabase.co/auth/v1/health
+    expectedStatusCodes:
+      - 200
+
+  - name: Cloudflare R2 GLB CDN
+    url: https://pub-34b9e7ef2c1d414ba6501db107fb6ba5.r2.dev/organs/corazon_humano.glb
+    method: HEAD
+    expectedStatusCodes:
+      - 200
+
+  - name: Aetheris Med (B2B)
+    url: https://figueredomed.com/aetheris-med
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+
+  - name: Tienda
+    url: https://figueredomed.com/tienda
+    expectedStatusCodes:
+      - 200
+
+  - name: Biblioteca
+    url: https://figueredomed.com/biblioteca
+    expectedStatusCodes:
+      - 200
+
+  - name: Calculadoras médicas
+    url: https://figueredomed.com/calculadoras
+    expectedStatusCodes:
+      - 200
+
+# ────────────────────────────────────────────────────────────────────
+# Configuración de la status page pública
+# ────────────────────────────────────────────────────────────────────
+status-website:
+  cname: status.figueredomed.com
+  name: Figueredo Med
+  introTitle: "**Estado oficial · Figueredo Med + Aetheris Med**"
+  introMessage: |
+    Monitor en tiempo real de la plataforma médica.
+    SLA objetivo: 99.5% (4.4 hr/mes max downtime).
+    Histórico 90 días disponible. Verificación cada 5 minutos vía GitHub Actions.
+  logoUrl: https://figueredomed.com/favicon.ico
+  theme: classic
+  navbar:
+    - title: Status
+      href: /
+    - title: Sitio principal
+      href: https://figueredomed.com
+    - title: Aetheris Med
+      href: https://figueredomed.com/aetheris-med
+    - title: GitHub
+      href: https://github.com/dralexander810121-cpu/upptime-figueredomed
+
+assignees:
+  - dralexander810121-cpu
+
+i18n:
+  activeIncidents: Incidentes activos
+  allSystemsOperational: Todos los sistemas operativos ✅
+  ascendingSortLabel: Más antiguos primero
+  averageResponseTime: Tiempo de respuesta promedio
+  awsRegion: región AWS
+  azureRegion: región Azure
+  cancelled: Cancelado
+  cancelledTitle: Mantenimiento programado cancelado
+  closedIncidents: Incidentes resueltos
+  componentDegradedPerformance: Performance degradada
+  componentMajorOutage: Caída total
+  componentOperational: Operativo
+  componentPartialOutage: Caída parcial
+  componentUnderMaintenance: En mantenimiento
+  daysAgo: días atrás
+  daysAway: dentro de
+  daysSinceLastIncident: Días desde el último incidente
+  degradedPerformance: Performance degradada
+  descendingSortLabel: Más recientes primero
+  down: Caído
+  fastestResponseTime: Tiempo de respuesta más rápido
+  hoursAgo: hs atrás
+  hoursAway: dentro de
+  incidentReport: Incidente reportado por Upptime
+  incidentReportOnGithub: Incidente reportado en GitHub
+  lastMonthAvailability: Disponibilidad último mes
+  lastResponseTime: Última respuesta
+  liveStatusCardLinkText: Sistemas
+  liveStatusHeading: Estado en vivo
+  majorOutage: Caída mayor
+  minutesAgo: min atrás
+  minutesAway: dentro de
+  monthsAgo: meses atrás
+  monthsAway: dentro de
+  newIncidents: Nuevos incidentes
+  noIncidents: Sin incidentes registrados
+  ongoing: En curso
+  ongoingTitle: Incidente en curso
+  openIncidents: Incidentes abiertos
+  pageNotFound: Página no encontrada
+  partialOutage: Caída parcial
+  performance: Performance
+  performanceSummary: Resumen de performance
+  postedAt: Publicado el
+  responseTime: Tiempo de respuesta
+  resumeAutoRefresh: Reanudar actualización
+  resolved: Resuelto
+  resolvedTitle: Incidente resuelto
+  scheduled: Programado
+  scheduledTitle: Mantenimiento programado
+  secondsAgo: seg atrás
+  secondsAway: dentro de
+  startingIn: Comienza en
+  stopAutoRefresh: Detener actualización
+  testFail: Test falló
+  totalChecks: Total de checks
+  underMaintenance: En mantenimiento
+  up: Operativo
+  upDays: días operativo
+  upHours: hs operativo
+  upMinutes: min operativo
+  upSeconds: seg operativo
+  uptime: Disponibilidad
+  weeksAgo: semanas atrás
+  weeksAway: dentro de
+  yearsAgo: años atrás
+  yearsAway: dentro de
+
+# ────────────────────────────────────────────────────────────────────
+# Workflow scheduling
+# ────────────────────────────────────────────────────────────────────
+workflowSchedule:
+  graphs: "0 0 * * *"           # Daily summary
+  responseTime: "0 23 * * *"    # Daily response time aggregation
+  staticSite: "0 1 * * *"       # Daily site rebuild
+  summary: "0 0 * * *"          # Daily incident summary
+  updateTemplate: "0 0 1 * *"   # Monthly template refresh
+  updates: "0 3 * * *"          # Daily uptime/downtime check
+  uptime: "*/5 * * * *"         # Every 5 minutes

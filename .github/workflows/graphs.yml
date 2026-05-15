@@ -1,0 +1,18 @@
+name: Graphs CI
+on:
+  repository_dispatch:
+    types: [graphs]
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  release:
+    name: Generate graphs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate graphs
+        uses: upptime/uptime-monitor@v1
+        with:
+          command: "graphs"
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
