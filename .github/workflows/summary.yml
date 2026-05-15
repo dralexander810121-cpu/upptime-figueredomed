@@ -10,6 +10,9 @@ jobs:
     name: Generate README
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
       - name: Generate README
         uses: upptime/uptime-monitor@v1.41.3
         with:

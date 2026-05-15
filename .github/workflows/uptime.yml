@@ -10,6 +10,9 @@ jobs:
     name: Check status
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
       - name: Check status
         uses: upptime/uptime-monitor@v1.41.3
         with:

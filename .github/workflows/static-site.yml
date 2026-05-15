@@ -18,6 +18,9 @@ jobs:
     name: Build status website
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
       - name: Build status website
         uses: upptime/uptime-monitor@v1.41.3
         with:
