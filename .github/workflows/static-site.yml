@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build status website
-        uses: upptime/uptime-monitor@v1
+        uses: upptime/uptime-monitor@v1.41.3
         with:
           command: "site"
         env:
