@@ -18,9 +18,31 @@ jobs:
     name: Build status website
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
       - name: Build status website
         uses: upptime/uptime-monitor@v1.41.3
         with:
           command: "site"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+
+      - name: Verify build output exists
+        run: |
+          echo "=== Listado __sapper__/export ==="
+          ls -la __sapper__/export/ || echo "NO EXISTE __sapper__/export"
+          echo "=== Listado raíz ==="
+          ls -la
+          echo "=== Buscar index.html en repo ==="
+          find . -name "index.html" -not -path "*/node_modules/*" | head -10
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          branch: gh-pages
+          folder: __sapper__/export
+          clean: true
+          commit-message: ":card_file_box: Deploy status page [skip ci]"
