@@ -10,20 +10,20 @@ Monitoreo de uptime automatizado para [figueredomed.com](https://figueredomed.co
 
 ## Sitios monitoreados
 
-| Sistema | URL | Frecuencia |
-|---|---|---|
-| Figueredo Med Web | figueredomed.com | 5 min |
-| Figueredo Med (www) | www.figueredomed.com | 5 min |
-| Patologías API | /api/v1/patologias/... | 5 min |
-| Stripe Checkout | /api/checkout/pro | 5 min |
-| IA Pregúntale Dr. | /api/ia/preguntale-dr | 5 min |
-| Supabase REST | xrilfjsamjnyhlvsiiyh.supabase.co | 5 min |
-| Supabase Auth | xrilfjsamjnyhlvsiiyh.supabase.co/auth/v1/health | 5 min |
-| Cloudflare R2 CDN | pub-...r2.dev/organs/... | 5 min |
-| Aetheris Med (B2B) | /aetheris-med | 5 min |
-| Tienda | /tienda | 5 min |
-| Biblioteca | /biblioteca | 5 min |
-| Calculadoras | /calculadoras | 5 min |
+| Sistema             | URL                                             | Frecuencia |
+| ------------------- | ----------------------------------------------- | ---------- |
+| Figueredo Med Web   | figueredomed.com                                | 5 min      |
+| Figueredo Med (www) | www.figueredomed.com                            | 5 min      |
+| Patologías API      | /api/v1/patologias/...                          | 5 min      |
+| Stripe Checkout     | /api/checkout/pro                               | 5 min      |
+| IA Pregúntale Dr.   | /api/ia/preguntale-dr                           | 5 min      |
+| Supabase REST       | xrilfjsamjnyhlvsiiyh.supabase.co                | 5 min      |
+| Supabase Auth       | xrilfjsamjnyhlvsiiyh.supabase.co/auth/v1/health | 5 min      |
+| Cloudflare R2 CDN   | pub-...r2.dev/organs/...                        | 5 min      |
+| Aetheris Med (B2B)  | /aetheris-med                                   | 5 min      |
+| Tienda              | /tienda                                         | 5 min      |
+| Biblioteca          | /biblioteca                                     | 5 min      |
+| Calculadoras        | /calculadoras                                   | 5 min      |
 
 ## Cómo funciona
 
