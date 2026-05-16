@@ -10,13 +10,14 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 55,
-    "timeDay": 55,
-    "timeWeek": 55,
-    "timeMonth": 55,
-    "timeYear": 55,
+    "time": 86,
+    "timeDay": 86,
+    "timeWeek": 86,
+    "timeMonth": 86,
+    "timeYear": 86,
     "dailyMinutesDown": {
-      "2026-05-15": 236
+      "2026-05-16": 306,
+      "2026-05-15": 1522
     }
   },
   {
@@ -30,13 +31,14 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 36,
-    "timeDay": 36,
-    "timeWeek": 36,
-    "timeMonth": 36,
-    "timeYear": 36,
+    "time": 44,
+    "timeDay": 44,
+    "timeWeek": 44,
+    "timeMonth": 44,
+    "timeYear": 44,
     "dailyMinutesDown": {
-      "2026-05-15": 236
+      "2026-05-16": 306,
+      "2026-05-15": 1522
     }
   },
   {
@@ -50,13 +52,14 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 56,
-    "timeDay": 56,
-    "timeWeek": 56,
-    "timeMonth": 56,
-    "timeYear": 56,
+    "time": 48,
+    "timeDay": 48,
+    "timeWeek": 48,
+    "timeMonth": 48,
+    "timeYear": 48,
     "dailyMinutesDown": {
-      "2026-05-15": 234
+      "2026-05-16": 306,
+      "2026-05-15": 1522
     }
   },
   {
@@ -70,13 +73,14 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 120,
-    "timeDay": 120,
-    "timeWeek": 120,
-    "timeMonth": 120,
-    "timeYear": 120,
+    "time": 86,
+    "timeDay": 86,
+    "timeWeek": 86,
+    "timeMonth": 86,
+    "timeYear": 86,
     "dailyMinutesDown": {
-      "2026-05-15": 234
+      "2026-05-16": 306,
+      "2026-05-15": 1520
     }
   },
   {
@@ -90,13 +94,14 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 37,
-    "timeDay": 37,
-    "timeWeek": 37,
-    "timeMonth": 37,
-    "timeYear": 37,
+    "time": 43,
+    "timeDay": 43,
+    "timeWeek": 43,
+    "timeMonth": 43,
+    "timeYear": 43,
     "dailyMinutesDown": {
-      "2026-05-15": 234
+      "2026-05-16": 306,
+      "2026-05-15": 1520
     }
   },
   {
@@ -110,11 +115,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 43,
-    "timeDay": 43,
-    "timeWeek": 43,
-    "timeMonth": 43,
-    "timeYear": 43,
+    "time": 70,
+    "timeDay": 70,
+    "timeWeek": 70,
+    "timeMonth": 70,
+    "timeYear": 70,
     "dailyMinutesDown": {}
   },
   {
@@ -128,13 +133,14 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 38,
-    "timeDay": 38,
-    "timeWeek": 38,
-    "timeMonth": 38,
-    "timeYear": 38,
+    "time": 34,
+    "timeDay": 34,
+    "timeWeek": 34,
+    "timeMonth": 34,
+    "timeYear": 34,
     "dailyMinutesDown": {
-      "2026-05-15": 234
+      "2026-05-16": 306,
+      "2026-05-15": 1520
     }
   },
   {
@@ -154,7 +160,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-05-15": 214
+      "2026-05-16": 306,
+      "2026-05-15": 1500
     }
   },
   {
@@ -163,18 +170,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
     "slug": "aetheris-med-b2-b",
     "status": "up",
-    "uptime": "73.75%",
-    "uptimeDay": "73.75%",
-    "uptimeWeek": "73.75%",
-    "uptimeMonth": "73.75%",
-    "uptimeYear": "73.75%",
-    "time": 193,
-    "timeDay": 193,
-    "timeWeek": 193,
-    "timeMonth": 193,
-    "timeYear": 193,
+    "uptime": "98.43%",
+    "uptimeDay": "98.43%",
+    "uptimeWeek": "98.43%",
+    "uptimeMonth": "98.43%",
+    "uptimeYear": "98.43%",
+    "time": 155,
+    "timeDay": 155,
+    "timeWeek": 155,
+    "timeMonth": 155,
+    "timeYear": 155,
     "dailyMinutesDown": {
-      "2026-05-15": 28
+      "2026-05-15": 14
     }
   },
   {
@@ -188,13 +195,14 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 42,
-    "timeDay": 42,
-    "timeWeek": 42,
-    "timeMonth": 42,
-    "timeYear": 42,
+    "time": 44,
+    "timeDay": 44,
+    "timeWeek": 44,
+    "timeMonth": 44,
+    "timeYear": 44,
     "dailyMinutesDown": {
-      "2026-05-15": 214
+      "2026-05-16": 306,
+      "2026-05-15": 1500
     }
   },
   {
@@ -203,19 +211,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
     "slug": "biblioteca",
     "status": "up",
-    "uptime": "74.06%",
-    "uptimeDay": "74.06%",
-    "uptimeWeek": "74.06%",
-    "uptimeMonth": "74.06%",
-    "uptimeYear": "74.06%",
-    "time": 67,
-    "timeDay": 67,
-    "timeWeek": 67,
-    "timeMonth": 67,
-    "timeYear": 67,
-    "dailyMinutesDown": {
-      "2026-05-15": 28
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 71,
+    "timeDay": 71,
+    "timeWeek": 71,
+    "timeMonth": 71,
+    "timeYear": 71,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Calculadoras médicas",
@@ -223,18 +229,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/figueredomed.com.ico",
     "slug": "calculadoras-medicas",
     "status": "up",
-    "uptime": "74.40%",
-    "uptimeDay": "74.40%",
-    "uptimeWeek": "74.40%",
-    "uptimeMonth": "74.40%",
-    "uptimeYear": "74.40%",
-    "time": 59,
-    "timeDay": 59,
-    "timeWeek": 59,
-    "timeMonth": 59,
-    "timeYear": 59,
+    "uptime": "98.48%",
+    "uptimeDay": "98.48%",
+    "uptimeWeek": "98.48%",
+    "uptimeMonth": "98.48%",
+    "uptimeYear": "98.48%",
+    "time": 172,
+    "timeDay": 172,
+    "timeWeek": 172,
+    "timeMonth": 172,
+    "timeYear": 172,
     "dailyMinutesDown": {
-      "2026-05-15": 28
+      "2026-05-15": 14
     }
   }
 ]
