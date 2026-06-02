@@ -1,7 +1,7 @@
 url: https://figueredomed.com/api/checkout/pro
-status: up
-code: 401
-responseTime: 325
-lastUpdated: 2026-06-02T00:10:49.787Z
+status: down
+code: 404
+responseTime: 45
+lastUpdated: 2026-06-02T06:51:43.498Z
 startTime: 2026-05-15T11:19:28.216Z
 generator: Upptime <https://github.com/upptime/upptime>
